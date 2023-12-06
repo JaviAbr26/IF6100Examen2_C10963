@@ -7,8 +7,8 @@ import cr.go.ucr.operaciones.Sumar;
 
 public class Main {
 
-	public static void main(String[] args) {
-	   OperacionAritmetica context;
+    public static void main(String[] args) {
+        OperacionAritmetica context;
        context = new OperacionAritmetica( new Sumar() );
        int suma = context.procesar(5,10);
        context = new OperacionAritmetica( new Resta() );
